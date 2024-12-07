@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "applewood:block/apple_pressure_plate"
+    },
+    "powered=true": {
+      "model": "applewood:block/apple_pressure_plate_down"
+    }
+  }
+}

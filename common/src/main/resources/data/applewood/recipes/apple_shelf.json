@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "shelf",
+  "pattern": [
+    "###",
+    "_ _",
+    "_ _"
+  ],
+  "key": {
+    "#": {
+      "item": "applewood:apple_slab"
+    },
+    "_": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "applewood:apple_shelf",
+    "count": 2
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "minecraft:apple_log"
+    }
+  ],
+  "result": {
+    "item": "applewood:apple_planks",
+    "count": 4
+  }
+}

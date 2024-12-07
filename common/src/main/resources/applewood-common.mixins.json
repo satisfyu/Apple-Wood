@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.berksire.applewood.core.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "VineryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

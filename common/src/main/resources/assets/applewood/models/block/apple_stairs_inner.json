@@ -1,0 +1,9 @@
+{
+	"credit": "Made by Satisfy",
+	"parent": "minecraft:block/inner_stairs",
+	"textures": {
+		"bottom": "applewood:block/apple_planks",
+		"top": "applewood:block/apple_planks",
+		"side": "applewood:block/apple_planks"	}
+}
+

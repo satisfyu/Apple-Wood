@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "applewood:block/apple_chair",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "applewood:block/apple_chair"
+    },
+    "facing=south": {
+      "model": "applewood:block/apple_chair",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "applewood:block/apple_chair",
+      "y": 270
+    }
+  }
+}

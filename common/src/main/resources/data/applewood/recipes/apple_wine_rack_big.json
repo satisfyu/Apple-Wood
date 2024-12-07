@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wine_rack",
+  "pattern": [
+    "#_#",
+    "#O#",
+    "#_#"
+  ],
+  "key": {
+    "#": {
+      "item": "applewood:apple_planks"
+    },
+    "_": {
+      "item": "applewood:apple_slab"
+    },
+    "O": {
+      "item": "applewood:apple_trapdoor"
+    }
+  },
+  "result": {
+    "item": "applewood:apple_wine_rack_big"
+  }
+}

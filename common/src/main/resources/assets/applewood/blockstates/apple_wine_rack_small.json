@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "applewood:block/apple_wine_rack_small",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "applewood:block/apple_wine_rack_small"
+    },
+    "facing=south": {
+      "model": "applewood:block/apple_wine_rack_small",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "applewood:block/apple_wine_rack_small",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "X X",
+    "B B"
+  ],
+  "key": {
+    "S": {
+      "item": "applewood:apple_slab"
+    },
+    "X": {
+      "item": "applewood:apple_planks"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "applewood:apple_table"
+  }
+}

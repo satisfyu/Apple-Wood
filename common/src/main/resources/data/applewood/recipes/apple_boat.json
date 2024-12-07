@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "applewood:apple_planks"
+    }
+  },
+  "result": {
+    "item": "applewood:apple_boat"
+  }
+}

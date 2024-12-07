@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "applewood:apple_chair",
+    "applewood:apple_table",
+    "applewood:apple_cabinet",
+    "applewood:apple_drawer",
+    "applewood:apple_wine_rack_big",
+    "applewood:apple_wine_rack_small",
+    "applewood:apple_wine_rack_mid",
+    "applewood:stripped_apple_log",
+    "applewood:stripped_apple_wood",
+    "applewood:apple_wood",
+    "applewood:apple_beam",
+    "applewood:apple_planks",
+    "applewood:apple_stairs",
+    "applewood:apple_slab",
+    "applewood:apple_fence",
+    "applewood:apple_fence_gate",
+    "applewood:apple_button",
+    "applewood:apple_pressure_plate",
+    "applewood:apple_door",
+    "applewood:apple_trapdoor",
+    "applewood:apple_lattice",
+    "applewood:apple_big_table",
+    "applewood:apple_shelf"
+  ]
+}

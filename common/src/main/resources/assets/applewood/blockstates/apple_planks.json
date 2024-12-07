@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "applewood:block/apple_planks",
+        "weight": 1
+      }
+    ]
+  }
+}
