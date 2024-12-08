@@ -22,11 +22,12 @@
   "block.applewood.apple_wine_rack_mid":"Mid Apple Wine Rack",
   "block.applewood.apple_wine_rack_small":"Small Apple Wine Rack",
   "block.applewood.apple_wood":"Apple Wood",
+  "block.applewood.apple_log":"Apple Log",
   "block.applewood.stripped_apple_log":"Stripped Apple Log",
   "block.applewood.stripped_apple_wood":"Stripped Apple Wood",
   "entity.applewood.apple_boat": "Apple Boat",
   "entity.applewood.apple_chest_boat": "Apple Chest Boat",
   "item.applewood.apple_boat": "Apple Boat",
   "item.applewood.apple_chest_boat": "Apple Chest Boat",
-  "itemGroup.applewood.applewood_tab": "[Let's Do Addon] Apple Wood"
+  "itemGroup.applewood.applewood_tab": "[Let's Do] Apple Wood"
 }

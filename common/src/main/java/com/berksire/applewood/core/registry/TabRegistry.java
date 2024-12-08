@@ -8,14 +8,12 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
-import static net.satisfy.vinery.core.registry.ObjectRegistry.APPLE_LOG;
-
 @SuppressWarnings("unused")
 public class TabRegistry {
     public static final DeferredRegister<CreativeModeTab> APPLEWOOD_TABS = DeferredRegister.create(AppleWood.MODID, Registries.CREATIVE_MODE_TAB);
 
-    public static final RegistrySupplier<CreativeModeTab> Applewood_TAB = APPLEWOOD_TABS.register("applewood", () -> CreativeModeTab.builder(CreativeModeTab.Row.TOP, 0)
-            .icon(() -> new ItemStack(ObjectRegistry.APPLE_WINE_RACK_BIG.get()))
+    public static final RegistrySupplier<CreativeModeTab> APPLEWOOD_TAB = APPLEWOOD_TABS.register("applewood", () -> CreativeModeTab.builder(CreativeModeTab.Row.TOP, 0)
+            .icon(() -> new ItemStack(ObjectRegistry.APPLE_PLANKS.get()))
             .title(Component.translatable("itemGroup.applewood.applewood_tab"))
             .displayItems((parameters, out) -> {
                 out.accept(ObjectRegistry.APPLE_CHAIR.get());
@@ -25,7 +23,7 @@ public class TabRegistry {
                 out.accept(ObjectRegistry.APPLE_WINE_RACK_BIG.get());
                 out.accept(ObjectRegistry.APPLE_WINE_RACK_SMALL.get());
                 out.accept(ObjectRegistry.APPLE_WINE_RACK_MID.get());
-                out.accept(APPLE_LOG.get());
+                out.accept(ObjectRegistry.APPLE_LOG.get());
                 out.accept(ObjectRegistry.APPLE_WOOD.get());
                 out.accept(ObjectRegistry.STRIPPED_APPLE_LOG.get());
                 out.accept(ObjectRegistry.STRIPPED_APPLE_WOOD.get());
@@ -44,8 +42,8 @@ public class TabRegistry {
                 out.accept(ObjectRegistry.APPLE_LATTICE.get());
                 out.accept(ObjectRegistry.APPLE_BIG_TABLE.get());
                 out.accept(ObjectRegistry.APPLE_SHELF.get());
-                //out.accept(BoatAndSignRegistry.APPLE_BOAT.get());
-                //out.accept(BoatAndSignRegistry.APPLE_CHEST_BOAT.get());
+                out.accept(ObjectRegistry.APPLE_BOAT.get());
+                out.accept(ObjectRegistry.APPLE_CHEST_BOAT.get());
             })
             .build());
 

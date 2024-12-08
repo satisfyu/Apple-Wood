@@ -3,15 +3,16 @@ package com.berksire.applewood.client;
 import com.berksire.applewood.client.render.block.AppleWoodHangingSignRenderer;
 import com.berksire.applewood.client.render.block.AppleWoodSignRenderer;
 import com.berksire.applewood.client.render.block.storage.*;
+import com.berksire.applewood.client.render.entity.AppleWoodBoatRenderer;
 import com.berksire.applewood.core.registry.EntityTypeRegistry;
 import com.berksire.applewood.core.registry.StorageTypeRegistry;
+import dev.architectury.registry.client.level.entity.EntityRendererRegistry;
 import dev.architectury.registry.client.rendering.BlockEntityRendererRegistry;
 import dev.architectury.registry.client.rendering.RenderTypeRegistry;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.resources.ResourceLocation;
-
 
 import static com.berksire.applewood.core.registry.ObjectRegistry.*;
 
@@ -27,6 +28,7 @@ public class AppleWoodClient {
         BlockEntityRendererRegistry.register(EntityTypeRegistry.APPLE_SIGN.get(), AppleWoodSignRenderer::new);
         BlockEntityRendererRegistry.register(EntityTypeRegistry.APPLE_HANGING_SIGN.get(), AppleWoodHangingSignRenderer::new);
         registerNetherStorageType();
+        registerEntityRenderers();
     }
 
 
@@ -39,5 +41,10 @@ public class AppleWoodClient {
         registerNetherStorageTypes(StorageTypeRegistry.FOUR_BOTTLE, new AppleWoodFourBottleRenderer());
         registerNetherStorageTypes(StorageTypeRegistry.NINE_BOTTLE, new AppleWoodNineBottleRenderer());
         registerNetherStorageTypes(StorageTypeRegistry.SHELF, new AppleWoodShelfRenderer());
+    }
+
+    public static void registerEntityRenderers() {
+        EntityRendererRegistry.register(EntityTypeRegistry.APPLE_BOAT, context -> new AppleWoodBoatRenderer<>(context, false));
+        EntityRendererRegistry.register(EntityTypeRegistry.APPLE_CHEST_BOAT, context -> new AppleWoodBoatRenderer<>(context, true));
     }
 }

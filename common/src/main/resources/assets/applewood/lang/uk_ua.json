@@ -28,5 +28,6 @@
   "entity.applewood.apple_chest_boat": "Яблучний човен зі скринею",
   "item.applewood.apple_boat": "Яблучний човен",
   "item.applewood.apple_chest_boat": "Яблучний човен зі скринею",
-  "itemGroup.applewood.applewood_tab": "[Let's Do Addon] Apple Wood"
+  "itemGroup.applewood.applewood_tab": "[Let's Do] Apple Wood",
+  "block.applewood.apple_log": "Яблуневий стовбур"
 }
