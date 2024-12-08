@@ -3,7 +3,7 @@
   "group": "planks",
   "ingredients": [
     {
-      "tag": "minecraft:apple_log"
+      "tag": "applewood:apple_log"
     }
   ],
   "result": {

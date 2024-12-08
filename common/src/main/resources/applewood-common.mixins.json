@@ -3,6 +3,7 @@
   "package": "com.berksire.applewood.core.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "VineryConfiguredFeaturesMixin",
     "VineryMixin"
   ],
   "injectors": {

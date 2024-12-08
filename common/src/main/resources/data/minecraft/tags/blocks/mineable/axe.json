@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "applewood:apple_log",
     "applewood:apple_chair",
     "applewood:apple_table",
     "applewood:apple_cabinet",
@@ -23,6 +24,10 @@
     "applewood:apple_trapdoor",
     "applewood:apple_lattice",
     "applewood:apple_big_table",
-    "applewood:apple_shelf"
+    "applewood:apple_shelf",
+    "applewood:apple_hanging_sign",
+    "applewood:apple_wall_hanging_sign",
+    "applewood:apple_sign",
+    "applewood:apple_wall_sign"
   ]
 }

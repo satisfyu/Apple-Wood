@@ -5,7 +5,7 @@ license = "Custom"
 [[mods]]
 modId = "applewood"
 version = "${version}"
-displayName = "[Let's Do Addon] AppleWood"
+displayName = "[Let's Do] AppleWood"
 authors = "berksire"
 icon = "pack.png"
 description = '''

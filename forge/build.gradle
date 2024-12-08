@@ -7,7 +7,7 @@ architectury {
     forge()
 }
 
-def jarFileName = 'letsdo-addon-applewood-forge'
+def jarFileName = 'letsdo-applewood-forge'
 
 archivesBaseName = jarFileName
 
