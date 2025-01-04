@@ -9,7 +9,6 @@ import dev.architectury.hooks.item.tool.AxeItemHooks;
 
 public class AppleWood {
     public static final String MODID = "applewood";
-
     public static void init() {
         ObjectRegistry.init();
         EntityTypeRegistry.init();
@@ -18,8 +17,6 @@ public class AppleWood {
 
     public static void commonInit() {
         Reflection.initialize(FlammableBlockRegistry.class);
-        AxeItemHooks.addStrippable(ObjectRegistry.APPLE_LOG.get(), ObjectRegistry.STRIPPED_APPLE_LOG.get());
-        AxeItemHooks.addStrippable(ObjectRegistry.APPLE_WOOD.get(), ObjectRegistry.STRIPPED_APPLE_WOOD.get());
-    }
+     }
 }
 
