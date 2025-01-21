@@ -5,7 +5,7 @@
   "name": "[Let's Do] AppleWood",
   "description": "Vinery has Apple Logs - but have you ever wondered what the wood might look like? Here you'll find out!",
   "authors": [
-    "berksire, satisfy"
+    "berksire, satisfy, KalWantsPizza&Waffles"
   ],
   "contact": {
     "sources": "https://github.com/berksire/vinery-apple-wood",
@@ -29,6 +29,6 @@
     "fabric": "*",
     "minecraft": ">=1.20.1",
     "architectury": ">=6.5.77",
-    "vinery": ">=1.4.22"
+    "vinery": ">=1.4.36"
   }
 }
