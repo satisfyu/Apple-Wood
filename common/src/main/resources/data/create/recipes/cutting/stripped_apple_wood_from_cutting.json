@@ -1,0 +1,18 @@
+{
+  "condition": {
+    "type": "forge:mod_loaded",
+    "modid": "create"
+  },
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "applewood:apple_wood"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "applewood:stripped_apple_wood"
+    }
+  ]
+}
