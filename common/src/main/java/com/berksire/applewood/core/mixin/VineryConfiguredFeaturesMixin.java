@@ -1,6 +1,6 @@
 package com.berksire.applewood.core.mixin;
 
-import com.berksire.applewood.util.AppleWoodIdentifier;
+import com.berksire.applewood.core.util.AppleWoodIdentifier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;

@@ -1,4 +1,4 @@
-package com.berksire.applewood.util;
+package com.berksire.applewood.core.util;
 
 import com.berksire.applewood.AppleWood;
 import net.minecraft.resources.ResourceLocation;

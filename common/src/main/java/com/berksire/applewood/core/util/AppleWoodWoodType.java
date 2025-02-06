@@ -1,4 +1,4 @@
-package com.berksire.applewood.util;
+package com.berksire.applewood.core.util;
 
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.properties.WoodType;

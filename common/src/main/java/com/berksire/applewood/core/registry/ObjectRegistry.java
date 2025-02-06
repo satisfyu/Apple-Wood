@@ -4,8 +4,8 @@ import com.berksire.applewood.AppleWood;
 import com.berksire.applewood.core.block.*;
 import com.berksire.applewood.core.entity.AppleWoodBoatEntity;
 import com.berksire.applewood.core.item.AppleWoodBoatItem;
-import com.berksire.applewood.util.AppleWoodIdentifier;
-import com.berksire.applewood.util.AppleWoodWoodType;
+import com.berksire.applewood.core.util.AppleWoodIdentifier;
+import com.berksire.applewood.core.util.AppleWoodWoodType;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.Registrar;
 import dev.architectury.registry.registries.RegistrySupplier;
@@ -62,6 +62,7 @@ public class ObjectRegistry {
     public static final RegistrySupplier<Block> APPLE_WALL_SIGN = registerWithoutItem("apple_wall_sign", () -> new AppleWoodWallSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_SIGN), AppleWoodWoodType.APPLE));
     public static final RegistrySupplier<Block> APPLE_HANGING_SIGN = registerWithoutItem("apple_hanging_sign", () -> new AppleWoodHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_HANGING_SIGN), AppleWoodWoodType.APPLE));
     public static final RegistrySupplier<Block> APPLE_WALL_HANGING_SIGN = registerWithoutItem("apple_wall_hanging_sign", () -> new AppleWoodWallHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_HANGING_SIGN), AppleWoodWoodType.APPLE));
+
     public static final RegistrySupplier<Item> APPLE_SIGN_ITEM = ITEMS.register("apple_sign", () -> new SignItem(new Item.Properties().stacksTo(16), ObjectRegistry.APPLE_SIGN.get(), ObjectRegistry.APPLE_WALL_SIGN.get()));
     public static final RegistrySupplier<Item> APPLE_HANGING_SIGN_ITEM = ITEMS.register("apple_hanging_sign", () -> new HangingSignItem(ObjectRegistry.APPLE_HANGING_SIGN.get(), ObjectRegistry.APPLE_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
     public static final RegistrySupplier<Item> APPLE_BOAT = ITEMS.register("apple_boat", () -> new AppleWoodBoatItem(false, AppleWoodBoatEntity.Type.APPLE, new Item.Properties()));

@@ -2,7 +2,7 @@ package com.berksire.applewood.fabric.client;
 
 import com.berksire.applewood.client.AppleWoodClient;
 import com.berksire.applewood.core.entity.AppleWoodBoatEntity;
-import com.berksire.applewood.util.AppleWoodIdentifier;
+import com.berksire.applewood.core.util.AppleWoodIdentifier;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.minecraft.client.model.BoatModel;
