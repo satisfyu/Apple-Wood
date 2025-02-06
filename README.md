@@ -1,4 +1,4 @@
-<p align="center"><img src="https://imgur.com/OIfx7qM.png" width="2750"></p>
+<p align="center"><img src="https://imgur.com/pdZ3G0j.png" width="2750"></p>
 
 <h1 align="center">Welcome to AppleWood!</h1>
 

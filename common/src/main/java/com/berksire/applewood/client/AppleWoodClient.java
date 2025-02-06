@@ -28,6 +28,9 @@ public class AppleWoodClient {
         BlockEntityRendererRegistry.register(EntityTypeRegistry.APPLE_SIGN.get(), AppleWoodSignRenderer::new);
         BlockEntityRendererRegistry.register(EntityTypeRegistry.APPLE_HANGING_SIGN.get(), AppleWoodHangingSignRenderer::new);
         registerNetherStorageType();
+    }
+
+    public static void preInitClient() {
         registerEntityRenderers();
     }
 

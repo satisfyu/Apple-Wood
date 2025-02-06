@@ -3,6 +3,7 @@ package com.berksire.applewood.forge;
 import com.berksire.applewood.AppleWood;
 import com.berksire.applewood.core.registry.FlammableBlockRegistry;
 import com.berksire.applewood.core.registry.ObjectRegistry;
+import com.berksire.applewood.platform.forge.PlatformHelperImpl;
 import dev.architectury.hooks.item.tool.AxeItemHooks;
 import dev.architectury.platform.forge.EventBuses;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -15,6 +16,7 @@ public class AppleWoodForge {
     public AppleWoodForge() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         EventBuses.registerModEventBus(AppleWood.MODID, modEventBus);
+        PlatformHelperImpl.ENTITY_TYPES.register(modEventBus);
         AppleWood.init();
 
         modEventBus.addListener(this::commonSetup);

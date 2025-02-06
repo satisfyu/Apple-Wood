@@ -12,6 +12,7 @@ import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.registries.RegisterEvent;
 
 @Mod.EventBusSubscriber(modid = AppleWood.MODID, value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class AppleWoodClientForge {
@@ -19,6 +20,11 @@ public class AppleWoodClientForge {
     @SubscribeEvent
     public static void onClientSetup(FMLClientSetupEvent event) {
         AppleWoodClient.onInitializeClient();
+    }
+
+    @SubscribeEvent
+    public static void onClientSetup(RegisterEvent event) {
+        AppleWoodClient.preInitClient();
     }
 
     @SubscribeEvent

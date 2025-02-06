@@ -12,6 +12,7 @@ import net.minecraft.client.model.geom.ModelLayerLocation;
 public class AppleWoodClientFabric implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
+        AppleWoodClient.preInitClient();
         AppleWoodClient.onInitializeClient();
         registerBoatModels();
     }

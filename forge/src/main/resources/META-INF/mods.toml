@@ -7,6 +7,7 @@ modId = "applewood"
 version = "${version}"
 displayName = "[Let's Do] AppleWood"
 authors = "berksire, KalWantsPizza&Waffles, satisfy"
+credits = "MissLilitu"
 icon = "pack.png"
 description = '''
 Vinery has Apple Logs - but have you ever wondered what the wood might look like? Here you'll find out!
