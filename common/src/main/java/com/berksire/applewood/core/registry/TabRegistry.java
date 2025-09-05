@@ -39,7 +39,7 @@ public class TabRegistry {
                 out.accept(ObjectRegistry.APPLE_SIGN_ITEM.get());
                 out.accept(ObjectRegistry.APPLE_HANGING_SIGN_ITEM.get());
                 out.accept(ObjectRegistry.APPLE_TRAPDOOR.get());
-                out.accept(ObjectRegistry.APPLE_LATTICE.get());
+                //out.accept(ObjectRegistry.APPLE_LATTICE.get());
                 out.accept(ObjectRegistry.APPLE_BIG_TABLE.get());
                 out.accept(ObjectRegistry.APPLE_SHELF.get());
                 out.accept(ObjectRegistry.APPLE_BOAT.get());

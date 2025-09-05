@@ -21,7 +21,7 @@ public class AppleWoodClient {
 
     public static void onInitializeClient() {
         RenderTypeRegistry.register(RenderType.cutout(),
-                APPLE_WINE_RACK_BIG.get(), APPLE_LATTICE.get(), APPLE_CHAIR.get(), APPLE_TABLE.get(), APPLE_WINE_RACK_MID.get()
+                APPLE_WINE_RACK_BIG.get(), APPLE_CHAIR.get(), APPLE_TABLE.get(), APPLE_WINE_RACK_MID.get()
         );
 
         BlockEntityRendererRegistry.register(EntityTypeRegistry.STORAGE_ENTITY.get(), context -> new AppleWoodStorageBlockEntityRenderer());
